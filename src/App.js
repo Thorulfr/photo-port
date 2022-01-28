@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css';
+// import './App.css';
 import Nav from './components/Nav';
 import About from './components/About';
 import Gallery from './components/Gallery';
@@ -30,8 +30,8 @@ function App() {
                 currentCategory={currentCategory}
             ></Nav>
             <main>
-                <Gallery currentCategory={currentCategory}></Gallery>
-                <About></About>
+                <Gallery currentCategory={currentCategory} />
+                <About />
             </main>
         </div>
     );
