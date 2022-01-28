@@ -11,6 +11,12 @@ function About() {
                 style={{ width: '100%' }}
                 alt="cover"
             ></img>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Accusantium harum culpa non reprehenderit vel nam, asperiores
+                alias molestiae praesentium. Repudiandae voluptas earum tempora
+                nobis velit numquam cumque, nulla accusantium sint.
+            </p>
         </section>
     );
 }
